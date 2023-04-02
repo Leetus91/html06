@@ -19,9 +19,29 @@
 */
 
 /* Styles for devices with screen width up to 640px */
-@media only screen and (max-width: 640px) {
-   /* Add your styles here */
+/* Mobile Styles */
+@media screen and (max-width: 640px) {
+   table,
+   tbody,
+   tr,
+   td,
+   th,
+   caption {
+     display: block;
+   }
+   thead,
+   h1 {
+     display: none;
+   }
+   table caption {
+     background-color: #666666;
+     color: #ffffff;
+     font-size: 1.5em;
+     line-height: 2em;
+     padding: 10px;
+   }
  }
+ 
  
 
 
