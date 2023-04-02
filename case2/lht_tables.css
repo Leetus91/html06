@@ -72,3 +72,20 @@
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
+
+@media screen and (min-width: 641px) {
+   /* CSS rules for devices with a minimum width of 641 pixels */
+ }
+
+ table {
+   background-image: url(lht_photo1.png);
+   background-repeat: no-repeat;
+   background-position: bottom right;
+   width: 40%;
+   border: 6px double rgb(154, 64, 3);
+   border-collapse: collapse;
+   margin: 20px auto;
+   table-layout: fixed;
+   width: 85%;
+ }
+ 
