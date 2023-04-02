@@ -88,4 +88,31 @@
    table-layout: fixed;
    width: 85%;
  }
+
+ table, thead, tbody, tr, td, th, caption {
+   display: block;
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
+ 
+ thead, td {
+   border: 1px solid gray;
+ }
+ 
+ th, td {
+   font-size: 0.85em;
+   font-weight: normal;
+   padding: 5px;
+   text-align: left;
+   vertical-align: top;
+   width: 14.28%;
+   word-wrap: break-word;
+ }
+
+ td[data-date*="Sep"] {
+   background-color: rgba(232, 214, 148, 0.6);
+   box-shadow: inset 0 0 20px gray;
+ }
+ 
  
