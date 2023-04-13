@@ -4,28 +4,25 @@
    New Perspectives on HTML and CSS, 8th Edition
    Tutorial 6
    Case Problem 2
-
    Columns Style Sheet
    Author: Lee Alexander Canam
-   Date:   April 2nd, 2022
-
+   Date: April 11th, 2023  
    Filename:   lht_columns.css
-
 */
-
-article {
-   column-width: 260px;
-   column-gap: 20px;
-   column-rule: 1px solid rgb(154, 64, 31);
-   widows: 2;
-   orphans: 2;
- }
 
 
 
 /* Column Styles */
 
-article h1 {
-   grid-column: 1 / -1; /* This spans from the first to the last column */
- }
+article {
+   column-width: 260px;
+   column-gap: 20px;
+   column-rule: 1px solid rgb(154,64,31);
+   widows: 2;
+   orphans: 2;
+
+}
+article h1{
+   column-span: all;
+}
  
