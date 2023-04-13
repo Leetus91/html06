@@ -28,19 +28,13 @@
 /* Styles for devices with screen width up to 640px */
 /* Mobile Styles */
 @media screen and (max-width: 640px) {
-   table,
-   tbody,
-   tr,
-   td,
-   th,
-   caption {
+   table,tbody,tr,td,th,caption {
      display: block;
    }
-   thead,
-   h1 {
+   thead,h1 {
      display: none;
    }
-   table caption {
+   table caption{
      background-color: #0a0909;
      color: #ffffff;
      font-size: 1.5em;
